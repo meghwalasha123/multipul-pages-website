@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-2 etc Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class='fas fa-times'></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+    <section id="about-home">
+        <h2>About Tech Educa /</h2>
+    </section>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>welcome to techeduca, enhance your skill with best online courses</h2>
+            <p>Lorem ipsum dolor sit amet adipisicing elit. Distinctio, mollitia!</p>
+            <div class="about-fe">
+                <img src="images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>400+ courses</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eveniet?<p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime access</h5>
+                    <p>Lorem ipsum dolor sit amet adipisicing elit. Molestias, eveniet?<p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit</P>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class='fas fa-graduation-cap'></i>
+                <h3>Scholarship Facility</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, amet molestiae?</p>
+            </div>
+            <div class="fea-box">
+                <i class='fas fa-book'></i>
+                <h3>Dell Online Course.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, amet molestiae?</p>
+            </div>
+            <div class="fea-box">
+                <i class='fas fa-award'></i>
+                <h3>Global Certification.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, amet molestiae?</p>
+            </div>
+        </div>
+    </section>
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit</P>
+        <div class="trust-img">
+            <img src="images/trust (1).png" alt="">
+            <img src="images/trust (2).png" alt="">
+            <img src="images/trust (3).png" alt="">
+            <img src="images/trust (4).png" alt="">
+            <img src="images/trust (5).png" alt="">
+            <img src="images/trust (6).png" alt="">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>manage reputation</li>
+            <li>power tools</li>
+            <li>managed website</li>
+            <li>marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>quick link</h3>
+            <li>jobs</li>
+            <li>brand assets</li>
+            <li>invastor relations</li>
+            <li>terms of service</li>
+        </div>
+        <div class="footer-col">
+            <h3>features</h3>
+            <li>manage reputation</li>
+            <li>power tools</li>
+            <li>managed website</li>
+            <li>marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>resources</h3>
+            <li>guides</li>
+            <li>research</li>
+            <li>experts</li>
+            <li>marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>newsletter</h3>
+            <p>you can trust us. we only send promo offers</p>
+            <div class="subscribe">
+                <input type="email" placeholder="your email address">
+                <a class="yellow" href="#">Subscribe</a>
+            </div>
+        </div>
+        <div class="copyrights">
+            <p>copyrights © 2021 all rights reserved | the template is mode by Tech2etc</p>
+            <div class="pro-links">
+                <i class='fab fa-facebook-f'></i>
+                <i class='fab fa-instagram'></i>
+                <i class='fab fa-linkedin-in'></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
